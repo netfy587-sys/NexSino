@@ -1,0 +1,97 @@
+<body>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,'Times New Roman',serif;color:#2b1d14;background:#faf5ee;line-height:1.7}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+header{background:#2b1d14;position:sticky;top:0;z-index:5}
+.nav{display:flex;justify-content:space-between;align-items:center;height:68px}
+.logo{font-size:26px;font-weight:700;color:#e9b872;letter-spacing:1px}
+.nav a.l{margin-left:24px;font-family:Arial,sans-serif;font-size:14px;color:#e8dccd}
+.hero{background:linear-gradient(rgba(35,22,14,.68),rgba(35,22,14,.68)),url('https://loremflickr.com/1600/900/coffee,beans?lock=41') center/cover;color:#fff;padding:130px 0;text-align:center}
+.hero h1{font-size:50px;line-height:1.15;margin-bottom:16px}
+.hero p{max-width:720px;margin:0 auto 28px;font-size:18px;color:#f1e6d8}
+.btn{display:inline-block;background:#c9863a;color:#fff;padding:14px 34px;border-radius:30px;font-family:Arial,sans-serif;font-size:15px;letter-spacing:.3px}
+.sec{padding:70px 0}
+.sec h2{font-size:34px;text-align:center;margin-bottom:10px}
+.sub{text-align:center;max-width:740px;margin:0 auto 40px;color:#6b5a4c}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 6px 20px rgba(60,35,15,.08)}
+.card img{width:100%;height:190px;object-fit:cover;display:block}
+.card div{padding:22px}
+.card h3{font-size:20px;margin-bottom:8px}
+.card p{font-size:15px;color:#6b5a4c}
+.alt{background:#fff}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center;margin-bottom:56px}
+.split:last-child{margin-bottom:0}
+.split img{width:100%;height:330px;object-fit:cover;border-radius:14px}
+.split h3{font-size:27px;margin-bottom:10px}
+.split p{color:#6b5a4c;margin-bottom:12px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
+.steps div{padding:24px;background:#fff;border-radius:14px;box-shadow:0 6px 20px rgba(60,35,15,.08)}
+.steps h4{font-size:18px;margin-bottom:6px}
+.steps p{font-size:14px;color:#6b5a4c}
+.cta{background:#2b1d14;color:#fff;text-align:center;padding:76px 0}
+.cta h2{font-size:36px;margin-bottom:10px;color:#e9b872}
+.cta p{max-width:660px;margin:0 auto 26px;color:#e8dccd}
+footer{background:#1c130d;color:#cbbcab;text-align:center;padding:26px 0;font-family:Arial,sans-serif;font-size:14px}
+@media(max-width:800px){.grid,.steps,.split{grid-template-columns:1fr}.hero h1{font-size:34px}.nav a.l{display:none}}
+</style>
+
+<header><div class="wrap nav"><a class="logo" href="#">NexSino</a><nav><a class="l" href="#basics">Coffee Basics</a><a class="l" href="#guide">Guide</a><a class="l" href="#tips">Brewing Tips</a><a class="l" href="#join">Contact</a></nav></div></header>
+
+<section class="hero"><div class="wrap">
+<h1>Your Search Ends Here</h1>
+<p>NexSino is an easy reading guide to the world of coffee. Learn where beans come from, how roasts differ and how to brew a better cup at home. Discover New Options and understand what is really in your cup.</p>
+<a class="btn" href="#basics">Take The Next Step</a>
+</div></section>
+
+<section class="sec" id="basics"><div class="wrap">
+<h2>Coffee Knowledge, Made Simple</h2>
+<p class="sub">Nine short reads covering the beans, roasts, brewing methods and drinks that every coffee lover should understand.</p>
+<div class="grid">
+<div class="card"><img src="https://loremflickr.com/600/400/coffee,beans?lock=51" alt="Coffee beans"><div><h3>Explore New Choices</h3><p>Arabica is smooth and aromatic, while Robusta is bolder with more caffeine. Knowing the difference helps you buy wisely.</p></div></div>
+<div class="card"><img src="https://loremflickr.com/600/400/coffee,farm?lock=52" alt="Coffee plantation"><div><h3>Something New Awaits</h3><p>Single-origin coffee comes from one region and shows its unique flavour, from fruity Ethiopian to chocolaty Brazilian.</p></div></div>
+<div class="card"><img src="https://loremflickr.com/600/400/roasted,coffee?lock=53" alt="Roasted coffee"><div><h3>Find Your Next Favorite</h3><p>Light roasts taste bright and floral, medium roasts are balanced and dark roasts are rich and smoky.</p></div></div>
+<div class="card"><img src="https://loremflickr.com/600/400/coffee,brewing?lock=54" alt="Pour over coffee"><div><h3>Discover More Options</h3><p>Pour over, French press, AeroPress and espresso each pull out different flavours from the same beans.</p></div></div>
+<div class="card"><img src="https://loremflickr.com/600/400/coffee,cherries?lock=55" alt="Coffee cherries"><div><h3>Explore What’s New</h3><p>Washed, natural and honey processing change how sweet or fruity a coffee tastes, and many roasters now share this detail.</p></div></div>
+<div class="card"><img src="https://loremflickr.com/600/400/coffee,grinder?lock=56" alt="Coffee grinder"><div><h3>Make A Choice Today</h3><p>Grind size matters. Coarse suits French press, medium suits drip and fine suits espresso. Start by matching the two.</p></div></div>
+<div class="card"><img src="https://loremflickr.com/600/400/coffee,cup?lock=57" alt="Cup of coffee"><div><h3>Discover Your Next Pick</h3><p>Tasting notes on the bag, such as caramel, citrus or berry, tell you what to expect before you brew.</p></div></div>
+<div class="card"><img src="https://loremflickr.com/600/400/iced,coffee?lock=58" alt="Iced coffee"><div><h3>Explore What’s Trending</h3><p>Cold brew and nitro coffee are growing fast. They are steeped slowly for a smooth, lower-acid taste.</p></div></div>
+<div class="card"><img src="https://loremflickr.com/600/400/latte,art?lock=59" alt="Latte art"><div><h3>See What Everyone Loves</h3><p>Lattes, cappuccinos and flat whites all begin with espresso. The difference lies in the amount of steamed milk and foam.</p></div></div>
+</div></div></section>
+
+<section class="sec alt" id="guide"><div class="wrap">
+<div class="split">
+<img src="https://loremflickr.com/800/600/coffee,shop?lock=61" alt="Coffee shop table">
+<div><h3>Find Your Best Match</h3><p>The best coffee is the one that suits your taste. If you like sweet and mellow, try medium roasts with chocolate notes. If you like lively and tangy, try light roasts. NexSino explains how to read the label so you choose with confidence.</p><p>A New Choice Awaits every time you try a new origin. Keep a small note of what you liked and your palate will grow quickly.</p></div>
+</div>
+<div class="split">
+<div><h3>Look What’s New</h3><p>Coffee changes with every harvest. New crops, new farms and new processing styles keep the world of coffee interesting all year round.</p><p>See What’s Inside every guide: bean origin, roast level, flavour notes and the best brewing method to try.</p></div>
+<img src="https://loremflickr.com/800/600/coffee,pour?lock=62" alt="Pouring hot water over coffee">
+</div>
+<div class="split">
+<img src="https://loremflickr.com/800/600/barista?lock=63" alt="Barista preparing coffee">
+<div><h3>Worth a Look Today</h3><p>Water quality, temperature and freshness shape a cup more than most people expect. Using fresh beans and water just off the boil already improves flavour a lot.</p><p>There’s More to Explore beyond the cup, from coffee history to how baristas train their palate.</p></div>
+</div>
+</div></section>
+
+<section class="sec" id="tips"><div class="wrap">
+<h2>Four Brewing Basics</h2>
+<p class="sub">Simple habits that make a clear difference to everyday coffee.</p>
+<div class="steps">
+<div><h4>Explore New Possibilities</h4><p>Try one new bean every few weeks and compare it with your usual pick.</p></div>
+<div><h4>Your Choice, Your Way</h4><p>Adjust strength by changing the coffee-to-water ratio to suit your taste.</p></div>
+<div><h4>Find Something Better</h4><p>Grind just before brewing. Freshly ground beans keep far more aroma.</p></div>
+<div><h4>Make Every Click Count</h4><p>Read reliable coffee guides so each purchase teaches you something new.</p></div>
+</div>
+</div></section>
+
+<section class="cta" id="join"><div class="wrap">
+<h2>Explore. Choose. Enjoy.</h2>
+<p>Join readers who learn something new about coffee every day with NexSino. Pick a topic, read at your own pace and enjoy a better cup.</p>
+<a class="btn" href="#basics">Start Reading</a>
+</div></section>
+
+<footer><div class="wrap">&copy; 2026 NexSino. All rights reserved.</div></footer>
+</body>
